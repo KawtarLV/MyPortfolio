@@ -5,9 +5,9 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Kaoutar Sadik — Full Stack Engineer" },
-      { name: "description", content: "Portfolio of Kaoutar Sadik, full stack engineer building thoughtful software with React, Spring Boot, and Node.js." },
+      { name: "description", content: "Full stack engineer building thoughtful software across React, Spring Boot, PHP, and SQL." },
       { property: "og:title", content: "Kaoutar Sadik — Full Stack Engineer" },
-      { property: "og:description", content: "Full stack engineer who loves building things. React · Spring Boot · Node.js · Cloud." },
+      { property: "og:description", content: "Full stack engineer building thoughtful software across React, Spring Boot, PHP, and SQL." },
     ],
   }),
   component: Portfolio,
@@ -141,7 +141,7 @@ function Hero() {
       </h1>
       <div className="mt-12 grid md:grid-cols-12 gap-8 items-end">
         <p className="md:col-span-7 text-lg leading-relaxed text-muted-foreground max-w-xl">
-          Software engineering student in Alkmaar, originally from Morocco, currently a year into my degree at Inholland. I build with React, Spring Boot, and Node.js — and I love the moment something finally clicks after hours of being stuck.
+          Software engineering student in Alkmaar, originally from Morocco, currently a year into my degree at Inholland. I build with React, Spring Boot, PHP, and SQL — and I love the moment something finally clicks after hours of being stuck.
         </p>
         <div className="md:col-span-5 md:justify-self-end flex flex-col gap-2 text-sm">
           <Stat k="Year" v="BASc IT · Inholland" />
@@ -173,7 +173,7 @@ function About() {
             I'm the kind of person who takes things apart just to see how they work — code included. There's a specific kind of satisfaction in being stuck on something for hours and then it just clicks. That's basically why I do this.
           </p>
           <p className="text-muted-foreground">
-            Outside of code I draw, I'm slowly picking up Dutch, and I'm pretty much always into some new random thing. Ask me about it, I'll probably talk too much.
+            Outside of code I draw (seriously, it's a whole thing), I'm slowly picking up Dutch, and I'm pretty much always into some new random thing. Ask me about it, I'll probably talk too much.
           </p>
           <p className="text-muted-foreground">
             Projects are below if you want the actual proof I can do this stuff.
@@ -366,7 +366,7 @@ function Footer() {
     <footer className="border-t border-border">
       <div className="mx-auto max-w-6xl px-6 py-8 flex flex-wrap items-center justify-between gap-2 text-xs text-muted-foreground font-mono">
         <span>© {new Date().getFullYear()} Kaoutar Sadik</span>
-        <span>Built with care in Alkmaar. I also draw.</span>
+        <span>Built with care in Alkmaar.</span>
       </div>
     </footer>
   );
